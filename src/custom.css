@@ -1,0 +1,59 @@
+body {
+  color: #424242;
+  margin: 0 !important;
+}
+
+h1 {
+  font-family: Lora, serif;
+  font-size: 64;
+  letter-spacing: 1;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 32;
+}
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 16;
+}
+
+h3.lead {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: italic;
+}
+header {
+  padding: 50px;
+}
+.main-content {
+  height: 70vh;
+}
+.no-pad {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.nav {
+  font-family: Roboto, sans-serif;
+  font-size: 24;
+  color: #999;
+  padding: 0px 50px;
+}
+.nav-link {
+  padding: 10px 0px;
+  letter-spacing: 10;
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #424242;
+}
+.main-img {
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 55%), url("./img/pencil.jpeg");
+  background-size: cover;
+  height: 100%;
+  border-left: 3px solid white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 50px;
+}
