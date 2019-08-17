@@ -23,27 +23,43 @@ h3.lead {
   font-weight: 300;
   font-style: italic;
 }
-header {
+.page-title {
   padding: 50px;
+}
+.title-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#kidp {
+  width: 150px;
 }
 .main-content {
   height: 70vh;
+}
+.tab-pane {
+  height: 100%;
 }
 .no-pad {
   padding: 0 !important;
   margin: 0 !important;
 }
-.nav {
+.navigation {
   font-family: Roboto, sans-serif;
   font-size: 24;
   color: #999;
   padding: 0px 50px;
 }
-.nav-link {
+.nav-name {
   padding: 10px 0px;
   letter-spacing: 10;
+  color: #999;
 }
-.nav-link.active {
+.nav-name:hover {
+  text-decoration: none;
+  color: #424242;
+}
+.nav-name.active {
   font-weight: bold;
   color: #424242;
 }
