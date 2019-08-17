@@ -8,22 +8,38 @@
     <link rel="stylesheet" href="src/custom.css">
   </head>
   <body>
-    <header>
-      <h1>Kancelaria Podatkowa Biuro Księgowe</h1>
+    <div class="page-title">
+      <div class="title-logo">
+        <h1>Kancelaria Podatkowa Biuro Księgowe</h1>
+        <a href="/"><img src="src/img/kidp.png" id="kidp" alt=""></a>
+
+      </div>
       <h3>Marzena Żuber</h3>
-    </header>
+    </div>
     <div>
       <div class="row main-content no-pad">
         <div class="col-sm-3 no-pad">
-          <ul class="list-group nav">
-            <li class="nav-link">KANCELARIA</li>
-            <li class="nav-link">OFERTA</li>
-            <li class="nav-link">KONTAKT</li>
+          <ul class="list-group nav navigation" id="myTab" role="tablist">
+            <li class="nav-item"><a class="nav-link nav-name active" id="main-tab" data-toggle="tab" role="tab" aria-controls="main" aria-selected="true" href="#main">KANCELARIA</a></li>
+            <li class="nav-item"><a class="nav-link nav-name" id="second-tab" data-toggle="tab" role="tab" aria-controls="second" aria-selected="false" href="#second">OFERTA</a></li>
+            <li class="nav-item"><a class="nav-link nav-name" id="third-tab" data-toggle="tab" role="tab" aria-controls="third" aria-selected="false" href="#third">KONTAKT</a></li>
           </ul>
         </div>
-        <div class="col-sm-9 no-pad">
-          <div class="main-img">
-            <h3 class="lead">Wspieramy polskich przedsiębiorców <br />od ponad 27 lat</h3>
+        <div class="col-sm-9 tab-content no-pad" id="myTabContent">
+          <div class="tab-pane fade show active" id="main" role="tabpanel" aria-labelledby="main-tab">
+            <div class="main-img">
+              <h3 class="lead">Wspieramy polskich przedsiębiorców <br />od ponad 27 lat</h3>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+            <div class="main-img">
+              <h3 class="lead">Wspieramy drugich przedsiębiorców <br />od ponad 27 lat</h3>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+            <div class="main-img">
+              <h3 class="lead">Wspieramy trzeich przedsiębiorców <br />od ponad 27 lat</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -31,6 +47,9 @@
     <footer>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="main.js"></script>
   </body>
 </html>
